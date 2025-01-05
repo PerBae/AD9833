@@ -19,6 +19,7 @@ I have used the STM32CubeIDE to generate the driver code.
  *                                          3 - DAC Data MSB.
  *
 **************************************************************************/
+
 bool AD9833::SetOutMode(OUTMODE out_mode)
 
 /**********************************************************************//**
@@ -28,6 +29,7 @@ bool AD9833::SetOutMode(OUTMODE out_mode)
  * @param frequency_value - Frequency value in Hz.
  *
 **************************************************************************/
+
 bool AD9833::SetFrequency( REGISTER register_number, uint32_t frequency_value)
 
 /*********************************************************************//**
@@ -37,6 +39,7 @@ bool AD9833::SetFrequency( REGISTER register_number, uint32_t frequency_value)
  * @param phase_value     - Phase value.
  *
 *************************************************************************/
+
 bool AD9833::SetPhase(REGISTER register_number, float phase_value)
 
 
